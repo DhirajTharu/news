@@ -1,0 +1,181 @@
+.top{
+    padding-top: 1.75rem;
+    display: flex;
+    padding-left: 45.5%;
+}
+.travel .top p{
+    padding-right: .75rem;
+    text-align: center;
+}
+.travel{
+     background-color: aliceblue;
+     margin: 2em;
+     margin-bottom: -.05em;
+}
+.travel .text{
+    text-align: center;
+}
+.travel .links ul li{
+    list-style-type: none;
+     padding: 1.5rem;
+}
+.travel .links ul{
+    display: flex;
+}
+.links{
+
+    padding-left: 23rem;
+}
+.travel .text h1{
+    font-size: 4rem;
+}
+.travel a{
+    text-decoration: none;
+    color: black;
+}
+.travel a:hover{
+    color: rgb(6, 49, 83);
+}
+.travel-images{
+    display: flex;
+    width: 100%;
+    padding: 1em;
+
+}
+.travel-images .image1{
+    width: 35%;
+}
+.travel-images .image2{
+    width: 30%;
+}
+.travel-images .image3{
+    width: 35%;
+}
+.travel-images img{
+    width: 100%;
+    border: .56rem solid white;
+    height: 35rem;
+}
+.travel-images p{
+    text-align: center;
+}
+.life{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+}
+.more_topics{
+    width: 100%;
+    display: flex;
+}
+.more_topics .image0{
+    width: 20%;
+}
+.more_topics .about_topics{width: 80%;}
+.more_topics .image0 img{
+    width: 100%;
+    height: 15em;
+    padding: 2rem;
+}
+.more_topics .about_topics p{
+    width: 60%;
+}
+.more_topics .about_topics .qn{
+    font-size: 2rem;
+}
+.more_topics .about_topics .topic{
+    color: burlywood;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+@media (max-width: 1080px){
+    .travel-images{
+        display: flex;
+        flex-direction: column;
+    }
+    .travel-images img{
+        width: 100%;
+        height: max-content;
+    }
+    .travel-images .image1{
+        width: 100%;
+    }
+    .travel-images .image2{
+        width: 100%;
+    }
+    .travel-images .image3{
+        width: 100%;
+    }
+    html{
+        overflow-x: hidden;
+        font-size: 62.5%;
+    }
+    .more_topics{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+    }
+    .more_topics .image0{
+        width: 100%;
+
+    }
+    .travel-images .image1 img{
+        height: 40rem;
+    }
+    .travel-images .image2 img{
+        height: 40rem;
+    }
+    .travel-images .image3 img{
+        height: 40rem;
+    }
+    .more_topics .image0 img{
+        width: 100%;
+        height: 35rem;
+
+    }
+    .more_topics .about_topics{
+        width: 100%;
+        text-align: center;
+    }
+    .more_topics .about_topics p{
+        width: 100%;
+        text-align: center;
+    }
+    .travel{
+        text-align: center;
+    }
+    .travel .links ul li{
+        padding: .5rem;
+    }
+    .links{
+        padding-left: 32.5%;
+    }
+    .top{
+        padding-left: 45%;
+        text-align: center;
+    }
+    .links ul{
+        text-align: center;
+    }
+}
+@media (max-width:500px){
+    .top{
+        padding-left: 40%;
+    }
+    .links{
+        padding-left: 15%;
+    }
+}
+*{
+    overflow-x: hidden;
+}
+hr{
+margin-left:10rem;
+margin-right:10rem;
+color: green;
+border: 2rem;
+border-color: green;
+}
